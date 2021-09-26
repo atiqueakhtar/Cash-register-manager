@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --primary-color: rgb(150, 55, 194);
+    --background-color: rgb(227, 203, 240);
+}
+.cash-manager{
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--background-color);
+    height: 100vh;
+    width: 650px;
+    margin: auto;
+    padding: 1.5rem;;
+}
+.header{
+    color: var(--primary-color);
+    text-align: center;
+}
+.bill-container{
+    text-align: center;
+    margin: 2rem;
+}
+.cash-container{
+    text-align: center;
+    margin: 2rem;
+}
+.label{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.input{
+    padding: .5rem;
+    border-radius: 25px;
+    margin: .5rem;
+}
