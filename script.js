@@ -23,7 +23,7 @@ button.addEventListener("click", () => {
         if(cashAmount.value>0)
         {
             cashError.style.display="none";
-            if(cashAmount.value >= billAmount.value)
+            if(parseInt(cashAmount.value) >= parseInt(billAmount.value))
             {
                 cashError.style.display="none";
                 let difference = cashAmount.value - billAmount.value;
