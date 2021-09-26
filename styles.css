@@ -33,3 +33,20 @@
     border-radius: 25px;
     margin: .5rem;
 }
+table{
+    margin: auto;
+}
+button{
+    display: block;
+    margin: auto;
+    padding: .5rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 25px;
+    box-shadow: 2px 2px gray;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.error{
+    /* display: inline-block; */
+    color: red;
+}
